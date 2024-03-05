@@ -3,6 +3,15 @@
     padding:0;
 }
 
+:root{
+
+--rosa:#FFFBFF;
+--preto:#EBD8D0;
+--azul:#EAC9C1;
+--verde:#D3AB9E;
+
+}
+
 .cabecalho{
     background-color: #231a5b;
     color:white;
@@ -22,4 +31,21 @@
 text-decoration: none;
 color: white;
 
+}
+
+.escola{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.escola-titulo{
+padding: 25px 0;
+}
+
+.escola-imagem{
+    width: 25% ;
 }
