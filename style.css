@@ -1,3 +1,7 @@
+<style><style>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap')
+</style>
+
 *{
     margin:0;
     padding:0;
@@ -9,11 +13,13 @@
 --preto:#EBD8D0;
 --azul:#EAC9C1;
 --verde:#D3AB9E;
+--fonte-texto:"kameron",serif;
+--fonte-titulo:"Fijalla", sans-serif;
 
 }
 
 .cabecalho{
-    background-color: #231a5b;
+    background-color: var(--azul#231a5b;)
     color:white;
     display: flex;
     align-items: center;
@@ -44,6 +50,7 @@ color: white;
 
 .escola-titulo{
 padding: 25px 0;
+fonte-family: var(--fonte-titulo)
 }
 
 .escola-imagem{
